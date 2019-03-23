@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E6a-XW-OUt">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="aeH-rg-soP">
+            <objects>
+                <tableViewController id="bOf-cd-5bX" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="kXQ-pC-WAq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Servants" id="4Na-pp-wAs">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="9i5-jq-X6H">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9i5-jq-X6H" id="gTs-A5-r6O">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="e818aa324258991b8a4e60af43140cad" translatesAutoresizingMaskIntoConstraints="NO" id="AW8-mX-fkg">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="saber" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lud-PX-hUv">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Prb-21-Pme" kind="show" id="3yy-eY-26g"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="a9K-gz-tp4">
+                                        <rect key="frame" x="0.0" y="188" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a9K-gz-tp4" id="htt-hi-HZZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.1-71f1f4f3612e73072c02177f0776c161" translatesAutoresizingMaskIntoConstraints="NO" id="Oso-VY-uwi">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="archer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oZ-Nd-VU5">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9R6-Tc-1xw" kind="show" id="g3C-sq-Bp4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="MWN-6J-JfY">
+                                        <rect key="frame" x="0.0" y="348" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MWN-6J-JfY" id="Ia5-87-M3V">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lanc" translatesAutoresizingMaskIntoConstraints="NO" id="EiJ-ut-SSu">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lancer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HZ-Wv-tVx">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sl6-ie-oed" kind="show" id="n5D-Ja-ZvG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="A6g-IY-lkt">
+                                        <rect key="frame" x="0.0" y="508" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A6g-IY-lkt" id="0P5-Lw-fAL">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Caster_(Gilles_de_Rais)_Stage1" translatesAutoresizingMaskIntoConstraints="NO" id="y06-GA-obA">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="caster" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6Z-Xe-2CY">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vy8-ou-wk5" kind="show" id="byo-f0-P9e"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="1wP-7a-H2v">
+                                        <rect key="frame" x="0.0" y="668" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1wP-7a-H2v" id="6qz-Kl-8FG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rider" translatesAutoresizingMaskIntoConstraints="NO" id="P3Y-CU-3oB">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKO-76-aIw">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HxB-N2-uMk" kind="show" id="34e-sd-ggU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="4W3-Yw-VsC">
+                                        <rect key="frame" x="0.0" y="828" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4W3-Yw-VsC" id="N44-e7-uVJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assa" translatesAutoresizingMaskIntoConstraints="NO" id="ZoV-Jn-2uZ">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="assassin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jk-K3-jEG">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sHM-j4-e8B" kind="show" id="0Qa-NC-D9m"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="V4G-Q5-SNN">
+                                        <rect key="frame" x="0.0" y="988" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="V4G-Q5-SNN" id="bq8-ew-GGF">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ber" translatesAutoresizingMaskIntoConstraints="NO" id="oxg-dM-BAf">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="berserker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8y-2z-EhE">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HDR-Zc-5I2" kind="show" id="o70-wK-uwP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="bOf-cd-5bX" id="xZG-oH-gx2"/>
+                            <outlet property="delegate" destination="bOf-cd-5bX" id="q6M-r7-ooI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="5Uo-rG-y9j"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oe7-hq-5Du" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3421.739130434783" y="-988.39285714285711"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="rOX-So-pFe">
+            <objects>
+                <tableViewController id="9R6-Tc-1xw" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="c5F-0V-YCq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="12Z-Lb-BFr">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M9g-RT-Spk">
+                                    <rect key="frame" x="39" y="22" width="341" height="1470"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">本名：吉爾伽美什 蘇美文明的烏魯克王國第一王朝的第五任國王，
+同時也是目前世界上現存最古老的史詩《基加美修史詩》之主角  作者親筆認定“全力以赴時1對1能擊敗任何英靈”  擁有全世界的寶具的原典，可以從王之財寶（Gate of Babylon）自由取出  職階技能：    對魔力：C — 可將詠唱是兩節以下的魔術無效化。不能防禦大規模魔術如大魔術、儀禮咒法等。
+  單獨行動：A — 即使沒有Master仍能行動。 擁有技能：   黃金律：A   統率力：A+   神性：B（A+） 寶具：天地乖離開闢之星    跟「切開世界」這個傳說毫無二致的效果，讓此劍進入了特殊的類別。
+生出風壓的斷層，其將成為擬似的空間斷層粉碎敵人。
+吉爾伽美什表達為「認識「開天闢地以前曾為地獄的星球」之物」。
+分別迴轉的3片圓柱狀的刀刃，生出風壓的斷層。即使撞上「誓約勝利之劍」，也不能完全抵消其威力。
+除非對肅正防禦等級或者同等級傷害的相殺，否則無法防禦的攻擊數值。
+三塊石板各自表示天·地·冥界、各自向不同方向迴轉顯示了世界應有的形態。這三塊全部合起來也表示「宇宙」。    王之財寶
+吉爾伽美什擁有的連向「黃金之都」鑰匙狀的劍。與寶物庫的空間相連，可以自由地取出在收藏在其中的寶物。等級為E～A++，意指放入到寶物庫的道具的等級。若果寶物庫未放入像樣的財寶，就並不是那麼有用的寶具。
+「收集了人間所有寶物」是吉爾伽美什的口頭禪，不過這並不是單純的比喻。吉爾伽美什將他的時代里產生的，所有技術的雛形收集起來，收歸己有。與其說裡面是吉爾伽美什貯藏下來的財寶，不如說是「人類智慧的原典」其本身。
+ 於第四次聖杯戰爭被遠坂時臣以世上首次脫皮的蛇的空殼的化石為觸媒召喚。 </string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gil" translatesAutoresizingMaskIntoConstraints="NO" id="9MA-fu-H0Q">
+                                    <rect key="frame" x="39" y="1400" width="341" height="266"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="9R6-Tc-1xw" id="EVk-cD-sKf"/>
+                            <outlet property="delegate" destination="9R6-Tc-1xw" id="hzt-uc-icG"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ze0-Am-3y4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715.9420289855075" y="-1678.125"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="7PV-CI-QUa">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="E6a-XW-OUt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GeL-QK-kD8">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bUU-s0-Mm7" kind="relationship" relationship="viewControllers" id="s6M-98-nxf"/>
+                        <segue destination="rCB-ZI-efR" kind="relationship" relationship="viewControllers" id="XRu-dO-WMU"/>
+                        <segue destination="0y5-dd-Nj4" kind="relationship" relationship="viewControllers" id="iOd-au-xLw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2oa-gy-TJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786.9565217391305" y="-653.57142857142856"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="arA-p3-C9f">
+            <objects>
+                <tableViewController id="4ld-E9-eJ0" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="c8u-04-yi2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Master" id="teb-VJ-bfs">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="hVE-UJ-hDK">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hVE-UJ-hDK" id="dzM-KT-HsH">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kili" translatesAutoresizingMaskIntoConstraints="NO" id="JtM-uc-n1V">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="衛宮 切嗣" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwo-Rr-44q">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZaD-Nj-ZwU" kind="show" id="T8G-fk-hSo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="v3C-xA-2AB">
+                                        <rect key="frame" x="0.0" y="188" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v3C-xA-2AB" id="xUn-j0-mHg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tosaka" translatesAutoresizingMaskIntoConstraints="NO" id="Xo7-f0-J8a">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="遠坂時臣" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yit-lg-TrX">
+                                                    <rect key="frame" x="144" y="24" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Kof-cF-FeW" kind="show" id="5Gc-dH-2Qm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="w4a-EI-eia">
+                                        <rect key="frame" x="0.0" y="348" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w4a-EI-eia" id="Gek-12-VUU">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l" translatesAutoresizingMaskIntoConstraints="NO" id="CMG-eX-ZN0">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="肯尼斯·埃爾梅羅·阿奇博爾德" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdE-MG-mAr">
+                                                    <rect key="frame" x="144" y="11" width="250" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="XdQ-ts-bhc" kind="show" id="ID4-IB-Xh1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="VqO-B0-Sd3">
+                                        <rect key="frame" x="0.0" y="508" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VqO-B0-Sd3" id="ks9-x2-oNk">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c" translatesAutoresizingMaskIntoConstraints="NO" id="C3R-UP-5z0">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雨生龍之介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwX-d2-dXe">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="dCA-5w-3pZ" kind="show" id="Php-sB-ctF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="LmF-OD-YQu">
+                                        <rect key="frame" x="0.0" y="668" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LmF-OD-YQu" id="RBu-6h-FLG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rm" translatesAutoresizingMaskIntoConstraints="NO" id="1m9-q8-cht">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="韋伯·維爾維特" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzi-aW-LEs">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="p9V-Li-FQs" kind="show" id="2fj-qU-yjE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="8CZ-6N-wpt">
+                                        <rect key="frame" x="0.0" y="828" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8CZ-6N-wpt" id="9pG-0x-xxj">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assam" translatesAutoresizingMaskIntoConstraints="NO" id="H7P-sA-4es">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="言峰綺禮" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUr-Pe-z1n">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vb1-vi-Zig" kind="show" id="jfR-3b-xfy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="Sc4-Ch-0DE">
+                                        <rect key="frame" x="0.0" y="988" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sc4-Ch-0DE" id="rGG-7E-XSn">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="159.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="aic-eH-rfs">
+                                                    <rect key="frame" x="20" y="11" width="116" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="間桐雁夜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIQ-M8-deX">
+                                                    <rect key="frame" x="144" y="11" width="189" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Lfh-gc-Gew" kind="show" id="57g-Hl-je4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="4ld-E9-eJ0" id="TXk-L3-db4"/>
+                            <outlet property="delegate" destination="4ld-E9-eJ0" id="Flf-fN-fti"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="9vt-OS-P4x"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7FG-cJ-tAU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3421.739130434783" y="-330.13392857142856"/>
+        </scene>
+        <!--master-->
+        <scene sceneID="C4x-a4-inj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0y5-dd-Nj4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="master" id="wKc-Sr-dAi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oqU-k3-Eor">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4ld-E9-eJ0" kind="relationship" relationship="rootViewController" id="tSb-ZM-mfb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X7d-Bc-zgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2533.3333333333335" y="-330.13392857142856"/>
+        </scene>
+        <!--home-->
+        <scene sceneID="DcG-lI-ysl">
+            <objects>
+                <viewController id="bUU-s0-Mm7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nml-o4-duf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wml-un-Nnr">
+                                <rect key="frame" x="39" y="161" width="337" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">聖杯是一種萬能的許願機，它承認的使用者只有一個，御主（Master）必須與七種職階的從者（Servant）之一立下契約，在戰爭中打敗其他陣營的參戰者，以證明自己是有資格擁有聖杯的人，方可得到聖杯的使用權。  Fate/Zero是講述「第四次聖杯戰爭」，７組魔術師在虛構的日本地方都市，冬木市互相爭鬥的故事</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fate zero角色介紹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iO9-QO-7Js">
+                                <rect key="frame" x="39" y="84" width="337" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fz" translatesAutoresizingMaskIntoConstraints="NO" id="jLz-Vv-Bns">
+                                <rect key="frame" x="39" y="446" width="337" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8sV-ZG-att"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="home" id="cm4-Bu-NIq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CGe-c6-Msd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2534.7826086956525" y="357.58928571428572"/>
+        </scene>
+        <!--servant-->
+        <scene sceneID="swo-0U-Oq5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rCB-ZI-efR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="servant" id="qGF-Xb-PWx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cz1-Ai-uMq">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bOf-cd-5bX" kind="relationship" relationship="rootViewController" id="vFc-3U-fi2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9zK-d6-G0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2534.7826086956525" y="-988.39285714285711"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="6t3-8l-Hmx">
+            <objects>
+                <tableViewController id="Prb-21-Pme" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ACm-rv-2af">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="nK0-Lp-LGT">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n6J-Kx-Pmm">
+                                    <rect key="frame" x="39" y="22" width="341" height="614"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">本名：阿爾托莉雅·潘德拉貢 不列顛傳說的英雄亞瑟王。 在第四次聖杯戰爭被代表愛因茲貝倫家族的衛宮切嗣所召喚。  職階技能：    對魔力：A    騎乘：Ａ 擁有技能：    直感：A    魔力放出：A    領袖氣質：B 寶具：誓約勝利之劍（Excalibur） 藉由將所有者的魔力變換成光，再從往下揮的劍的前端如光束一般地放出來破壞萬物。  吃貨：在不列顛作為亞瑟王時曾經因為潛入廚房被梅林的反吃貨陷阱捕捉，因此對魔術師工房非常謹慎。 </string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q" translatesAutoresizingMaskIntoConstraints="NO" id="vg6-8V-aBf">
+                                    <rect key="frame" x="89" y="527" width="240" height="238"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ex" translatesAutoresizingMaskIntoConstraints="NO" id="lhL-Ts-JtB">
+                                    <rect key="frame" x="89" y="857" width="240" height="219"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="Prb-21-Pme" id="PjM-Da-hcm"/>
+                            <outlet property="delegate" destination="Prb-21-Pme" id="sUd-sA-k2u"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bnd-Bk-oax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2534.7826086956525" y="-1678.125"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="1ZQ-jh-IaQ">
+            <objects>
+                <tableViewController id="sl6-ie-oed" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eUx-pK-8eD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="tG6-kR-3Tr">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZuE-zm-xGQ">
+                                    <rect key="frame" x="39" y="22" width="341" height="1079"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">本名：迪爾姆德·奧迪那 凱爾特神話的著名英雄，費奧納騎士團最受歡迎的騎士。他是騎士團團長芬恩的侄子、最好的戰士、也是最好的朋友之一，棟恩之子，愛爾蘭神話中愛與青春之神安格斯·麥·奧格的養子，學藝於大海之神瑪納南。也被稱為"光輝之貌的迪爾姆德"與"愛之淚痣的迪爾姆德"。美麗的容貌讓他在當時獲得"愛爾蘭土地上所有女性與少女的夢中情人的稱號。活躍於古愛爾蘭蓋爾語故事，費奧納傳奇篇章中，他年輕有禮、重情重義，有著舉世無雙的武藝也與眾多騎士團員交情甚好，因而成為騎士團裡最受歡迎的戰士。
+ 職階技能：    對魔力：B 擁有技能：    心眼(真)：B    愛的黑痣(愛の黑子)：C    騎士的武略：B 寶具（刷子）：    破魔的紅薔薇，能將魔力構成的防禦無效化的鋒利長槍。其攻擊對於由魔力編制的防具尤其有效，施加於武裝上的魔術強化、附加能力等在接觸到這把槍的時候也會失去一切效果．    必滅的黃薔薇，附有"無法癒合傷口"詛咒的黃色短槍。受到這把危險的短槍傷害後，會造成不可恢復的創傷，即使使用"治愈魔術"或"再生能力"也無法解除其造成的"負傷狀態"。  在伊斯坎達爾的披風被盜走後，肯尼斯召喚出的Servant。  最後在Saber和Lancer第二次大戰時衛宮切嗣以“用令咒讓Lancer自殺就不殺你們夫婦倆”為誘餌誘惑肯尼斯，導致Lancer自殺</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="這個男人，有兩把刷子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9N-21-hwD">
+                                    <rect key="frame" x="120" y="1100" width="174" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dc2100027225bf280561" translatesAutoresizingMaskIntoConstraints="NO" id="2rx-d9-yNK">
+                                    <rect key="frame" x="89" y="1129" width="240" height="251"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="自古槍兵幸運E" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luu-Dg-EOR">
+                                    <rect key="frame" x="137" y="1388" width="114" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img8790" translatesAutoresizingMaskIntoConstraints="NO" id="DPj-Ul-ij3">
+                                    <rect key="frame" x="74" y="1417" width="240" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="sl6-ie-oed" id="Cdh-2X-5Mh"/>
+                            <outlet property="delegate" destination="sl6-ie-oed" id="ByI-6q-p6c"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwm-sX-fam" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3421.739130434783" y="-1678.125"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="GC7-zB-NUL">
+            <objects>
+                <tableViewController id="vy8-ou-wk5" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1QR-rd-aAy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="5Cf-EY-3Fw">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n1n-Ip-089">
+                                    <rect key="frame" x="39" y="22" width="341" height="714"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">本名：吉爾·德·萊斯 百年戰爭時期的法國元帥，亦是歐洲歷史上著名的黑巫師。他也是西方童話傳說中的反派角色「藍鬍子」的現實原型之一。因聖女貞德的死，而走上歧途。在第四次聖杯戰爭中被意外召喚。職階為Caster。本身並不適合「Caster」這一職階，甚至不是真正的「英靈」。雨生龍之介似是而非的儀式能算作召喚儀式成立只能說是「意外」，但卻成為這次聖杯戰爭中最惡的組合。
+
+職階技能：    陣地作成：B 擁有技能：    精神污染：A    藝術審美：E- 寶具：螺湮城教本    用人皮裝訂而成的魔導書，上面記載著有關人類產生之前的太古邪神的禁毀知識。
+這本書不是一本正常的書本，而是一個活物。擁有可以用來作為魔力爐心的能力，能夠無視術者本身的魔力自行發動大魔術·禮儀咒法級別的魔術。Caster一般是用來召喚並使役深海中的怪物。</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="vy8-ou-wk5" id="Nml-ZK-4kN"/>
+                            <outlet property="delegate" destination="vy8-ou-wk5" id="pkM-FT-TCj"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="966-fa-ed8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4237.68115942029" y="-1678.125"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="YXW-aa-5Tm">
+            <objects>
+                <tableViewController id="HxB-N2-uMk" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="k15-bj-Lsa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="wzk-uk-bas">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W45-7z-9jg">
+                                    <rect key="frame" x="39" y="22" width="341" height="1699"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">本名：伊斯坎達爾 歷史原型是眾所周知的古馬其頓王亞歷山大大帝。 統一希臘全境，進而東征，在每打敗一個國家後，把國土都還給了當地貴族。
+不費一兵一卒而占領埃及全境，蕩平波斯帝國。
+夢想是看到盡頭之海。因著這份執著的夢想，戰士們死後意志依然忠實地守衛著伊斯坎達爾。
+最終在一些不相信他的人的唆使下，東方遠征軍解散了。子嗣絕滅，親手建立的帝國一分為三。
+但本人認為「如果這是我的選擇以及追隨我的臣民們一生奮鬥的結局，那麼毀滅也是天意。我會為之心痛，為之流淚，但絕不會抱有半點悔意。」
+
+職階技能：    抗魔力：D    騎乘：A+ 擁有技能：    領導力：A    戰略：B    神性：C，雖然沒有明確的證據，但許多傳說中都流傳著他是最高神宙斯之子的說法。 寶具：王之軍勢    死後仍宣誓效忠伊斯坎達爾、與君主一同英靈化的近衛軍團作為Servant降臨於現界。
+雖然召喚出的都是沒有Master的Servant，但各自都擁有相當於E-等級的「單獨行動」技能．  來到現世以後，通過地圖明白了大地是圓形的，根本沒有無盡之海。認為「真是很過分的玩笑」。  爽朗豪邁的性格使其與（王妃）Master韋伯的關係很好。看見了Saber的西裝後要求購買現代服飾，特別是褲子。訂購了胸前印有「大戰略」的T恤，並在收件人姓名處寫了征服王。和韋伯一起逛街。
+
+打斷了Lancer和Saber的戰鬥，邀請他們加入自己麾下。當然被拒絕了，想想也是不可能的
+
+認為Saber只是個愛做夢的小姑娘，想自己將她喚醒。
+
+邀請吉爾伽美什、阿爾托莉雅·潘多拉貢喝酒。他對於王者的認識「所謂王者，是比任何人要活得精彩，令萬眾傾倒的身影！集萬千勇士仰慕於一身，如路標般屹立不倒的人，方可為王！因此——王者不孤，因其意志即是其所有臣民志向的集合！」贏得了吉爾伽美什的尊重。
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="es" translatesAutoresizingMaskIntoConstraints="NO" id="2lr-Ky-O2F">
+                                    <rect key="frame" x="87" y="1532" width="240" height="189"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="HxB-N2-uMk" id="Srm-lw-1IM"/>
+                            <outlet property="delegate" destination="HxB-N2-uMk" id="lqV-Rw-ZO2"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EUS-mj-FBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5124.6376811594209" y="-1678.125"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="V8s-ga-eAp">
+            <objects>
+                <tableViewController id="sHM-j4-e8B" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="WTb-B5-T5P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="t07-vI-sQj">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IbK-Dp-9Je">
+                                    <rect key="frame" x="39" y="22" width="341" height="676"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">哈桑·薩巴赫（百貌），原型是阿拉伯同名刺客（11世紀50年代——1124？）。同時他也是英語「Assassin（刺客）」一詞的來源。金庸的武俠小說《倚天屠龍記》中的霍山即是此人。  在作品中為阿薩辛教團的第19任哈桑。「Assassin」——符合的英靈只有歷代的暗殺者「哈桑·薩巴赫」。全體成員均沒有作為英雄的輝煌傳說，因此能力值低下。  職階技能：    氣息遮斷：A+ 擁有技能：    藏知的司書：C
+將不同的人格分類管理的技能    專科百般：A+ 寶具：妄想幻象(Zabaniya)    多個靈魂存在於一個單體中，將自身靈魂分散後，可以以多個英靈的方式存在於現界，最多分裂為80人，有著不自覺表現自我的可能性。</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="sHM-j4-e8B" id="yZb-hr-CRN"/>
+                            <outlet property="delegate" destination="sHM-j4-e8B" id="Qj7-QS-2FN"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GDY-qw-WOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5924.6376811594209" y="-1678.125"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Dbs-8B-Ofi">
+            <objects>
+                <tableViewController id="HDR-Zc-5I2" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ueh-di-59c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="BlT-ce-az8">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6bk-Se-i7y">
+                                    <rect key="frame" x="39" y="22" width="341" height="868"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">本名：蘭斯洛特 亞瑟王傳說中圓桌騎士團的成員之一。 是最受亞瑟王信賴，在諸多戰役中為王的勝利做出貢獻，但也是因為他而導致亞瑟王傳奇的落幕。
+幼年時曾被湖中妖精投入神奇的湖水中撫養成人而有「湖之騎士」的稱號。
+因為和亞瑟王的妻子桂妮薇兒王后有私情，被其他騎士發現後逐出了圓桌騎士團，造成了圓桌騎士的分裂。 職階技能：    狂化：C — 除幸運和魔力外所有屬性上升一級，但是失去語言能力。同時也不能進行複雜的思考    對魔力：E（D） — 不能免疫任何魔術，但可以稍微削減魔術所造成的傷害。 擁有技能：    精靈之加護：A     無盡的武煉：A+    魔力逆流： A — 寶具：騎士不死於徒手    賦予手中的東西「自己的寶具」這樣的屬性的寶具能力。不管什麼武器、怎麼樣的兵器都能在手中用魔力圍繞使之成為相當於D級別的擬似寶具。這個能力的適用範圍原則上只限於他認知為「武器」的東西。
+
+因為費洛特的策略，而在沒帶劍進行戰鬥的困境中，用樹枝打倒費洛特的小故事的具現化。</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lans" translatesAutoresizingMaskIntoConstraints="NO" id="6XY-dx-pGI">
+                                    <rect key="frame" x="53" y="872" width="309" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="HDR-Zc-5I2" id="xaw-Kx-pCK"/>
+                            <outlet property="delegate" destination="HDR-Zc-5I2" id="XWe-m1-FhB"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P0q-2Y-4iO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6673.913043478261" y="-1678.125"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="tFm-vu-CJM">
+            <objects>
+                <tableViewController id="ZaD-Nj-ZwU" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AiM-ib-jQW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="d4y-fr-xzc">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LRW-9a-KGm">
+                                    <rect key="frame" x="39" y="22" width="341" height="1014"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">愛因茲貝倫家僱傭的御主，魔術師殺手，同時也是伊莉雅斯菲爾的父親。召喚出了從者Saber。
+
+在第四次聖杯戰爭中一路開無雙，在大戰的最後放走了言峰綺禮，被言峰綺禮許願詛咒。
+
+在火災中為了救一個瀕死的孩子而將自己攜帶的概念武裝阿瓦隆給予了那個孩子。後將那個孩子——士郎領養。居住在衛宮邸，和藤村組有所往來，被藤村大河愛戴。
+
+最終，因為身體衰弱，在五年後(約1999年)去世。被柳洞一成的父親以及藤村雷畫操辦後事，葬在柳洞寺後山的墓地。  有著極為沈痛的過去和悲傷的回憶，雖然是希望世界和平的夢想家，但實踐時卻是冷酷無情的現實主義者。儘管愛著所有人，但也有著“殺掉任何一個人”覺悟的男人。他的內心沒有任何猶疑，不過卻未能完全捨棄悲傷。
+
+喜好槍械，懂得“固有時制御”這種特殊魔術，但覺得魔術與機械一樣，只是一種達成目標的手段。「不擇手段」殺死敵對的邪惡魔術師令他聲名狼藉，不用說對魔術協會而言是排斥的殺手般存在，但也因那樣手腕才得以被愛因茲貝倫家族注意和僱傭。
+
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="ZaD-Nj-ZwU" id="5SZ-0l-ome"/>
+                            <outlet property="delegate" destination="ZaD-Nj-ZwU" id="0j1-XN-hMz"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVX-fR-B1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5192.753623188406" y="-818.30357142857144"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="VIq-y5-11R">
+            <objects>
+                <tableViewController id="Kof-cF-FeW" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8kq-xL-LLE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="dgr-cK-KIi">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1138"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="USg-5B-iSq">
+                                    <rect key="frame" x="39" y="22" width="341" height="921"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">日本著名魔術師。魔術世家遠坂家的第五代家主。冬木市聖杯戰爭的御三家。
+
+在魔術協會擁有很多專利，家資富裕，家傳魔術性質為轉化，擅長使用寶石魔術，屬性為火。  第四次聖杯戰爭前數年，在意大利，時臣與故交——聖杯戰爭監督者、聖堂教會的言峰璃正神父一起勸說言峰璃正的兒子言峰綺禮加入聖杯戰爭。因此綺禮成為了時臣的弟子，開始學習魔術。  第四次聖杯戰爭開始後，時臣用世界上第一具蛇蛻作為聖遺物召喚出了Archer 吉爾伽美什。與綺禮的Assassin一起參與聖杯戰爭，在一明一暗兩邊進行戰鬥。  時臣對有著英雄王稱號的吉爾伽美甚行臣下之禮，然而傲慢的金閃閃仍然多次不執行時臣的戰術。  之後的戰鬥中，接連接到了言峰璃正被殺以及臨時同盟的愛麗絲菲爾堅決要求綺禮退出聖杯戰爭的要求，不得已讓綺禮準備機票離開冬木。此時金閃閃和綺禮通過多次交流已經愉悅上了。在和綺禮告別時，時臣將禮裝對師寶具AZOTH劍送給綺禮作為出師禮物，隨後被綺禮用對師寶具AZOTH劍從背後捅死。
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="Kof-cF-FeW" id="n5E-RM-vVR"/>
+                            <outlet property="delegate" destination="Kof-cF-FeW" id="30Q-nj-KzC"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NTL-vk-Y0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6113.04347826087" y="-818.30357142857144"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="CSK-Rz-nfd">
+            <objects>
+                <tableViewController id="XdQ-ts-bhc" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ExL-E1-ofN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="pzb-Yp-VnM">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zvT-Nf-O9w">
+                                    <rect key="frame" x="39" y="22" width="341" height="806"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">Lancer陣營的御主。 時鐘塔降靈科的一級講師，精通降靈術、召喚術、鍊金術。魔術屬性是風和水。
+是歷經九代的魔術名門——阿奇博爾德家族的繼承人，幼年時就有天才與神童之稱，本人也對於魔術有著絕對的自信。但與此相對地，也有著多疑的性格，這在他與Lancer的關係中也有所體現。
+與降靈科部長的女兒索拉烏訂有婚約。
+在第四次聖杯戰爭開始前，其原本準備的觸媒被學生韋伯偷走，只好使用預備的觸媒召喚了Lancer。
+在戰爭中讓未婚妻索拉烏為Lancer提供魔力，自己則保有令咒和充沛的魔力以應付對手。 在Lancer再次與Saber交戰之時，肯尼斯被切嗣以索拉烏的性命相脅，而答應切嗣自己願意放棄令咒和從者，以換取切嗣「不傷害自己以及索拉烏」的約定。
+隨後他使用令咒命令Lancer自殺，但緊接著自己和索拉烏就遭到久宇舞彌的射擊，索拉烏當場死亡，苟延殘喘的肯尼斯懇求切嗣殺死自己，但切嗣以之前訂下的約定為由拒絕，最後肯尼斯被看不下去的Saber一劍斬死。
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="XdQ-ts-bhc" id="otY-eH-yjf"/>
+                            <outlet property="delegate" destination="XdQ-ts-bhc" id="uJY-AL-wBm"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y18-aK-1hX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7142.0289855072469" y="-818.30357142857144"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Dcp-cJ-8s8">
+            <objects>
+                <tableViewController id="dCA-5w-3pZ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hBp-BZ-PEm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="cuJ-iR-tSB">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vBR-8I-v5E">
+                                    <rect key="frame" x="39" y="22" width="341" height="1739"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">Caster的御主。 明朗快活，能洞察別人心情細微之處但不拘小節。隨時保持樂觀、富建設性的心情。不因失敗而認輸，有著旺盛的好奇心和求知欲，認真享受人生的好青年―――只不過興趣是拷問、殺人以及棄屍。
+
+在召喚Caster之前他已經殺害了42人，但龍之介卻連一次也沒有被列入過嫌疑犯的名單中，警察的搜索全部陷入迷宮中，其中一部分甚至沒有被當成殺人事件追查。儘管是毫無計劃的快樂殺人鬼，但在隱藏證據和擾亂搜查的手腕上十分卓越，若以職業殺手的身份出道說不定會是足以成為傳說的逸才。不過本人抱持興趣和實際要有區隔的主義，絕不對受害者的財物下手，平常是腳踏實地的靠著打工度日。
+
+是一名動物愛好家，十分喜歡狩獵公園或自然科學類的特集。但對於殘虐對象的愛好只限於人目人科的樣子。雖然對鯊魚和肉食動物抱有憧憬，卻未曾想過要變成它們。因為能夠最有效率狩獵人類的獵人，就是身為同類的人類。
+ 從祖先(第二次聖杯戰爭相關者)的遺物中找到了召喚惡魔的文獻。在潛進一個四口之家後殺死了父母和大女兒，並用死者鮮血繪成魔方陣，因為惡趣味只留下小兒子然後這個男孩就充當了聖遺物，由於吟誦了文獻中的召喚咒文，而此時僅Caster一騎沒有被召喚，聖杯就賦予其令咒，使得其召喚“惡魔”成功。
+
+在召喚出Caster後便與其在冬木市大肆進行殺戮，主要對象為小孩子。在夜晚龍之介戴上Caster所贈予的手鐲此手鐲後來被探險的遠坂凜注入過多魔力而碎裂並被其釋放了在場的所有孩子到處誘拐小孩子至Caster的魔術工房後對其進行“藝術創作” 。
+
+因此而被聖堂教會發布命令，使剩餘六騎從者及禦主圍剿Caster，剿滅者可獲得一枚令咒。
+
+後來被Rider的御主韋伯通過煉金術檢測河流中魔術殘存量而發現其位於下水道的魔術工房，但此時Caster與龍之介外出而逃過一劫，回來後發現魔術工房被破壞的龍之介備受打擊，不過與Caster互相鼓勵後重新站了起來，並啟發Caster在未遠川召喚海魔。
+
+在看到海魔後極度興奮的樣子被衛宮切嗣發現並開槍擊中腹部，發現原來自己所追求的死亡就在自己身體中，隨後被切嗣補上一槍將其擊斃。
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="dCA-5w-3pZ" id="9X5-Zk-fZn"/>
+                            <outlet property="delegate" destination="dCA-5w-3pZ" id="kPP-2B-jgE"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6nb-Jg-VQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4237.68115942029" y="195.53571428571428"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="dxo-mU-qoz">
+            <objects>
+                <tableViewController id="p9V-Li-FQs" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZjC-Z9-pfO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Gw5-tq-t1f">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nq8-mP-XIb">
+                                    <rect key="frame" x="39" y="22" width="341" height="614"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">時鐘塔的年輕學生，在被老師肯尼斯否定之後，盜走了肯尼斯的聖遺物，偷偷來到冬木市，召喚出Rider 亞歷山大參加了第四次聖杯戰爭。在聖杯戰爭中生還，回到時鐘塔，成為講師，繼承了埃爾梅羅教室。最終成為傳奇人物君主·埃爾梅羅二世。  在召喚出從者Rider伊斯坎達爾之後，反而被豪爽的Rider到處使喚。  在伊斯坎達爾與吉爾伽美甚在大橋決戰前，韋伯以三劃令咒下令，讓征服王得到聖杯、取得勝利、征服世界，以臣子身份與伊斯坎達爾共乘戰馬沖向吉爾伽美甚，但是因為固有結界被乖離劍擊碎而衝鋒未果。伊斯坎達爾與韋伯約定，要韋伯作為臣子傳承歌頌他的事蹟。韋伯目送大帝在寶具之雨中衝到最後一刻直至消散。在面對獲勝的吉爾伽美甚時，即使害怕，韋伯也保持著抬頭正視。被英雄王認可了他的忠道，最後退出了聖杯戰爭，成為了少有的善終禦主。
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="w" translatesAutoresizingMaskIntoConstraints="NO" id="Lzh-yd-woC">
+                                    <rect key="frame" x="39" y="631" width="341" height="229"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="p9V-Li-FQs" id="7jo-Fr-HHC"/>
+                            <outlet property="delegate" destination="p9V-Li-FQs" id="oWI-Gg-7th"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="crL-69-5Zm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5192.753623188406" y="195.53571428571428"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="63I-j9-5iH">
+            <objects>
+                <tableViewController id="vb1-vi-Zig" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="upx-WL-d53">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Q4h-bO-hSe">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="52s-qN-yQn">
+                                    <rect key="frame" x="39" y="22" width="341" height="1618"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">聖堂教會第八秘跡會的司祭及監督者言峰璃正之子，Fate本篇的最大敵人。擅長八極拳並擁有極強的對靈體的攻擊能力。曾是聖堂教會的一流代行者，後從教會以「被派遣」的形式轉業到了魔術協會。參加過第四次聖杯戰爭，之後作為在第四次聖杯戰爭倖存者的一人繼承了監督者一職，同時也是第五次聖杯戰爭的最大作弊者。
+
+然而與聖人般的父親相反，天生是個“喜毒草而非鮮花，飛蛾而非彩蝶”的精神缺陷者，只能從他人的痛苦與不幸，和萬物的崩壞中感受到愉悅與幸福。但作為虔誠的教徒之子，自小到大天性一直被壓抑著，自身也沒有察覺。懷著對“得不到救贖的自己”的憤怒，進行了自虐般的刻苦修行。但這反而使父親和他人誤以為是虔誠的表現。使得璃正頗以兒子為豪的同時，亦令綺禮自身更為苦惱。在第四次聖杯戰爭中知曉了真正的自己，現已對此採取達觀態度。
+
+喜好吃辣的東西，是冬木市中華餐廳「紅洲宴歲館·泰山」的常客。  按時臣的戰略召喚出了Servant Assassin。戰爭開始時與時臣配合演了一出Assassin詐敗的戲碼讓其他Master放鬆警惕。之後作為“戰敗”的Master前往教會接受庇護。實際上在教會中暗中驅使Assassin為時臣刺探其他參戰者的情報。  因為時臣和愛因茲貝倫的結盟，綺禮被要求離開日本。感到接近一直追求的答案的綺禮，在吉爾伽美甚的言語誘惑下決心復歸戰爭，追尋“ 愉悅 ”。聯合吉爾伽美甚背刺時臣並與吉爾伽美甚締結契約。
+
+之後籠絡了間桐雁夜為棋子，並利用其擄走了作為聖杯之器的愛麗絲菲爾。和愛麗絲菲爾對話後得知切嗣事實上是和自己完全相反的人。對切嗣生存方式感到失望和憤怒，決心為粉碎切嗣的願望而戰。隨後將愛麗絲菲爾殺死，置於冬木市民會館的禮堂。
+
+在市民會館和切嗣相遇並展開慘烈的對決，將要分出勝負之際兩人被聖杯湧出的黑泥所浸。觀看了切嗣的精神世界後理解的聖杯的本質與切嗣的目的。醒來後請求切嗣放過聖杯，被切嗣拒絕並射穿心臟而死。
+
+最終吉爾伽美甚自黑泥中獲得肉體。黑泥也沿其與綺禮的契約連線流到綺禮身上，填補了心臟使其複活。
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="69k-w7-pON">
+                                    <rect key="frame" x="87" y="1573" width="240" height="159"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="vb1-vi-Zig" id="Ro0-9F-x6L"/>
+                            <outlet property="delegate" destination="vb1-vi-Zig" id="kF9-Tw-dIf"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2nb-sC-tAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6111.594202898551" y="195.53571428571428"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Dn4-Y0-G3E">
+            <objects>
+                <tableViewController id="Lfh-gc-Gew" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="UMy-Za-a7B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="etT-Gb-T93">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bvs-mT-YVJ">
+                                    <rect key="frame" x="39" y="22" width="341" height="614"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <mutableString key="text">間桐家的次子，臟硯的後代。“代表”間桐家參加了第四次聖杯戰爭。是Berserker的御主。
+
+臟硯對雁夜奪取聖杯基本沒有期望，但是本著對這個叛逆者的教訓，還是答應了這個請求。之後的一年間，雁夜在蟲庫幾乎變成廢人。左半邊身體神經幾乎報廢，左眼失明，半邊臉毀容，頭髮全白。出門會習慣性戴上兜帽擋住自己的臉。
+
+開戰前夕，雁夜手背浮現出令咒。在召喚前，臟硯以雁夜能力差為由要求雁夜召喚出Berserker，其實只是為了讓雁夜變得痛苦，反正沒指望雁夜贏過。後召喚出Berserker蘭斯洛特。
+ 在最終戰，雁夜放手讓蘭斯洛特和Saber戰鬥，在高負荷的戰鬥接近尾聲，蘭斯洛特被Saber擊殺時，雁夜也終於不堪重負倒下。</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="Lfh-gc-Gew" id="0pG-2T-Hye"/>
+                            <outlet property="delegate" destination="Lfh-gc-Gew" id="tyK-5a-Xvz"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ING-aL-IHt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7142" y="196"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.1-71f1f4f3612e73072c02177f0776c161" width="418" height="645"/>
+        <image name="Caster_(Gilles_de_Rais)_Stage1" width="512" height="720"/>
+        <image name="assa" width="1069" height="1600"/>
+        <image name="assam" width="225" height="258.75"/>
+        <image name="b" width="400" height="400"/>
+        <image name="ber" width="399" height="555"/>
+        <image name="c" width="400" height="400"/>
+        <image name="dc2100027225bf280561" width="498" height="546"/>
+        <image name="e818aa324258991b8a4e60af43140cad" width="840" height="1174"/>
+        <image name="es" width="1023" height="509"/>
+        <image name="ex" width="412.5" height="231.75"/>
+        <image name="fz" width="600" height="326"/>
+        <image name="gil" width="1440" height="810"/>
+        <image name="happy" width="465" height="525"/>
+        <image name="img8790" width="1280" height="720"/>
+        <image name="kili" width="300" height="300"/>
+        <image name="l" width="200" height="200"/>
+        <image name="lanc" width="450" height="464.25"/>
+        <image name="lans" width="500" height="281"/>
+        <image name="q" width="189" height="266"/>
+        <image name="rider" width="240" height="243.36000061035156"/>
+        <image name="rm" width="192" height="192"/>
+        <image name="tosaka" width="250" height="427"/>
+        <image name="w" width="1500" height="1000"/>
+    </resources>
+</document>
